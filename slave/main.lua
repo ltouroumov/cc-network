@@ -1,5 +1,5 @@
-os.loadAPI("/monitor/config")
-os.loadAPI("/monitor/lson")
+os.loadAPI("/api/config")
+os.loadAPI("/api/lson")
 local cfg
 
 function setup()

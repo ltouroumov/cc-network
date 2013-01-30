@@ -1,5 +1,7 @@
-os.loadAPI("/lson")
-os.loadAPI("/gui")
+os.loadAPI("/api/lson")
+os.loadAPI("/api/gui")
+os.loadAPI("/api/config")
+
 rednet.open("bottom")
 
 local view = term
